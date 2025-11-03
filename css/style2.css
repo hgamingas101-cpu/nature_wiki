@@ -1,0 +1,141 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 25/10/2025, 10:14:02 a. m.
+    Author     : samir
+*/
+.contenedor{
+    background-color: whitesmoke;
+   background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+  
+   
+}
+
+.imagen{
+    
+    height: auto;
+    width:auto;
+   margin-left: 100px;
+   margin-right: 100px;
+   margin-top: 20px;
+}
+.p{
+    font-size: 50px;
+}
+#Acceso{
+        margin-top: 15px;
+}
+.fondito {
+    height: 200px;
+    width: 400px;
+   
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+}
+
+.lisi {
+    height: 200px;
+    width: 400px;
+    margin-left: 0;
+    margin-right: auto;
+    margin-top: 100px;
+}
+
+
+.imal {
+    width: 500px;
+    margin-left: auto;  
+    margin-right: 0; 
+}
+
+.fondo {
+    
+    background-image: url("../images/pc-nature-beauty-2048x1152-wallpaper-preview.jpg");
+    
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+}
+
+
+
+
+.ficha-planta {
+    max-width: 600px;
+    margin: 40px auto; 
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center; 
+}
+
+
+.ficha-planta img {
+    max-width: 100%;
+    height: auto;
+    display: block; 
+    margin: 10px auto; 
+}
+#contener{
+    background: transparent;
+    border: none;
+    color: palevioletred;
+    cursor: pointer;
+    
+}
+
+
+#simple-menu {
+    text-align: center; 
+    background-color: #333; 
+    padding: 10px 0; 
+    margin-bottom: 20px; 
+    overflow: hidden; 
+}
+
+
+.menu-button {
+    color: white; 
+    text-decoration: none; 
+    padding: 10px 15px; 
+    margin: 0 5px; 
+    display: inline-block; 
+    border-radius: 5px; 
+    transition: background-color 0.3s; 
+    font-family: sans-serif; 
+}
+
+
+.menu-button:hover {
+    background-color: #555; 
+}
+
+
+.menu-button.active {
+    background-color: #007bff; 
+    font-weight: bold;
+}
+
+
+@media (max-width: 600px) {
+    #simple-menu .menu-button {
+        display: block; 
+        margin: 5px 0;  
+    }
+}
+
+main img {
+    max-width: 100%;
+    height: auto;    
+    display: block;  
+}
