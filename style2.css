@@ -6,25 +6,62 @@ Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css
     Created on : 25/10/2025, 10:14:02 a. m.
     Author     : samir
 */
-.contenedor{
-    background-color: whitesmoke;
-   background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 100vh;
-    width: 100vw;
-  
-   
+
+body {
+    min-height: 100vh;
+    margin: 0; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center;
+    background-color: #f4f4f9; 
+    font-family: sans-serif; 
 }
 
-.imagen{
-    
-    height: auto;
-    width:auto;
-   margin-left: 100px;
-   margin-right: 100px;
-   margin-top: 20px;
+.sign {
+    max-width: 400px;
+    width: 90%; 
+    padding: 2rem;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
 }
+
+
+.content {
+    text-align: center; 
+    padding-bottom: 1rem;
+}
+
+
+#loginForm {
+    width: 100%;
+    text-align: left;
+}
+
+.input-group {
+    margin-bottom: 1rem;
+}
+
+.input-group label {
+    display: block; /* Asegura que la etiqueta tome su propia línea */
+    margin-bottom: 0.3rem;
+    font-weight: bold;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 0.7rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; /* Crucial para que el padding y border no aumenten el ancho total */
+}
+
+
+
+
+
 .p{
     font-size: 50px;
 }
