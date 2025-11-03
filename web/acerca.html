@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+    <div id="simple-menu">
+        <a href="inicio.html" class="menu-button">Inicio</a>
+        <a href="contenido.html" class="menu-button">Contenido</a>
+        <a href="acerca.html" class="menu-button active">Acerca de</a>
+        <a href="contactanos.html" class="menu-button">Contáctanos</a>
+    </div>
+        <main style="max-width: 600px; margin: 40px auto; padding: 20px; border: 1px solid #ccc; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+        
+        <h1 style="text-align: center; color: #333; margin-bottom: 20px;">Envíanos un Mensaje</h1>
+        
+        <form action="/submit-form" method="POST">
+            
+            <div style="margin-bottom: 15px;">
+                <label for="inputNombre" style="display: block; margin-bottom: 5px; font-weight: bold;">Tu Nombre:</label>
+                <input type="text" id="inputNombre" name="nombre" style="width: 100%; padding: 10px; border: 1px solid #ddd; border-radius: 4px;" required>
+            </div>
+
+            <div style="margin-bottom: 15px;">
+                <label for="inputEmail" style="display: block; margin-bottom: 5px; font-weight: bold;">Correo Electrónico:</label>
+                <input type="email" id="inputEmail" name="email" style="width: 100%; padding: 10px; border: 1px solid #ddd; border-radius: 4px;" required>
+            </div>
+
+            <div style="margin-bottom: 20px;">
+                <label for="textAreaMensaje" style="display: block; margin-bottom: 5px; font-weight: bold;">Mensaje:</label>
+                <textarea id="textAreaMensaje" name="mensaje" rows="6" style="width: 100%; padding: 10px; border: 1px solid #ddd; border-radius: 4px;" required></textarea>
+            </div>
+
+            <button type="submit" style="width: 100%; padding: 12px; background-color: #333; color: white; border: none; border-radius: 4px; cursor: pointer; font-size: 16px;">
+                Enviar
+            </button>
+            
+        </form>
+    </main>
+        
+   
+    </body>
+</html>
